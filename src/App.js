@@ -1,14 +1,13 @@
 import React, {useState} from "react"; 
 import './App.css';
-import { AdminPortal } from "./AdminPortal";
-import { UserLogin } from './UserLogin';
-import { AdminLogin } from "./AdminLogin";
-import {CreateLogin} from "./CreateLogin";
+import { UserLogin } from './pages/UserLogin';
+import { AdminLogin } from "./pages/AdminLogin";
+
 
 
 function App() {
   return (
-    <AdminPortal/>
+    <AdminLogin/>
   );
 }
 
